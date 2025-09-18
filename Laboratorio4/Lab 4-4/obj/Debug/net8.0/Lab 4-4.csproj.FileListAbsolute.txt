@@ -1,0 +1,15 @@
+C:\Users\edg50\source\repos\ds4\Laboratorio4\Lab 4-4\bin\Debug\net8.0\Lab 4-4.exe
+C:\Users\edg50\source\repos\ds4\Laboratorio4\Lab 4-4\bin\Debug\net8.0\Lab 4-4.deps.json
+C:\Users\edg50\source\repos\ds4\Laboratorio4\Lab 4-4\bin\Debug\net8.0\Lab 4-4.runtimeconfig.json
+C:\Users\edg50\source\repos\ds4\Laboratorio4\Lab 4-4\bin\Debug\net8.0\Lab 4-4.dll
+C:\Users\edg50\source\repos\ds4\Laboratorio4\Lab 4-4\bin\Debug\net8.0\Lab 4-4.pdb
+C:\Users\edg50\source\repos\ds4\Laboratorio4\Lab 4-4\obj\Debug\net8.0\Lab 4-4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\edg50\source\repos\ds4\Laboratorio4\Lab 4-4\obj\Debug\net8.0\Lab 4-4.AssemblyInfoInputs.cache
+C:\Users\edg50\source\repos\ds4\Laboratorio4\Lab 4-4\obj\Debug\net8.0\Lab 4-4.AssemblyInfo.cs
+C:\Users\edg50\source\repos\ds4\Laboratorio4\Lab 4-4\obj\Debug\net8.0\Lab 4-4.csproj.CoreCompileInputs.cache
+C:\Users\edg50\source\repos\ds4\Laboratorio4\Lab 4-4\obj\Debug\net8.0\Lab 4-4.sourcelink.json
+C:\Users\edg50\source\repos\ds4\Laboratorio4\Lab 4-4\obj\Debug\net8.0\Lab 4-4.dll
+C:\Users\edg50\source\repos\ds4\Laboratorio4\Lab 4-4\obj\Debug\net8.0\refint\Lab 4-4.dll
+C:\Users\edg50\source\repos\ds4\Laboratorio4\Lab 4-4\obj\Debug\net8.0\Lab 4-4.pdb
+C:\Users\edg50\source\repos\ds4\Laboratorio4\Lab 4-4\obj\Debug\net8.0\Lab 4-4.genruntimeconfig.cache
+C:\Users\edg50\source\repos\ds4\Laboratorio4\Lab 4-4\obj\Debug\net8.0\ref\Lab 4-4.dll
