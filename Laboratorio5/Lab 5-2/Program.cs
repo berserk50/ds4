@@ -1,4 +1,6 @@
-﻿internal class Program
+﻿using System.Security.Cryptography.X509Certificates;
+
+internal class Program
 {
 
     private int[,] mat;
@@ -18,5 +20,26 @@
 
             }
         }
+
+        public void Imprimir()
+        {
+        for (int f = 0; f < 3; f++)
+            {
+            for (int c = 0; c < 4; c++)
+            {
+                Console.Write(mat[f, c] + "");
+            }
+            Console.ReadKey();
+        
+            }
+        }
+
+         static void Main(string[] args)
+         {
+        Matriz ma = new Matriz();
+        ma.Ingresar();
+        ma.Imprimir();
+
+         }
     }
 }
