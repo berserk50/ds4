@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Laboratorio7</id>
+    <version>1.0.0</version>
+    <authors>Laboratorio7</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="b5311114b141459220a09931d74406eea17af06a" />
+    <dependencies>
+      <group targetFramework="net8.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\edg50\source\repos\ds4\Laboratorio7\Laboratorio7\bin\Debug\net8.0\Laboratorio7.runtimeconfig.json" target="lib\net8.0\Laboratorio7.runtimeconfig.json" />
+    <file src="C:\Users\edg50\source\repos\ds4\Laboratorio7\Laboratorio7\bin\Debug\net8.0\Laboratorio7.dll" target="lib\net8.0\Laboratorio7.dll" />
+  </files>
+</package>
