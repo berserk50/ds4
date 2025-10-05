@@ -1,0 +1,15 @@
+C:\Users\edg50\source\repos\ds4\Laboratorio9\Lab94\bin\Debug\net8.0\Lab94.exe
+C:\Users\edg50\source\repos\ds4\Laboratorio9\Lab94\bin\Debug\net8.0\Lab94.deps.json
+C:\Users\edg50\source\repos\ds4\Laboratorio9\Lab94\bin\Debug\net8.0\Lab94.runtimeconfig.json
+C:\Users\edg50\source\repos\ds4\Laboratorio9\Lab94\bin\Debug\net8.0\Lab94.dll
+C:\Users\edg50\source\repos\ds4\Laboratorio9\Lab94\bin\Debug\net8.0\Lab94.pdb
+C:\Users\edg50\source\repos\ds4\Laboratorio9\Lab94\obj\Debug\net8.0\Lab94.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\edg50\source\repos\ds4\Laboratorio9\Lab94\obj\Debug\net8.0\Lab94.AssemblyInfoInputs.cache
+C:\Users\edg50\source\repos\ds4\Laboratorio9\Lab94\obj\Debug\net8.0\Lab94.AssemblyInfo.cs
+C:\Users\edg50\source\repos\ds4\Laboratorio9\Lab94\obj\Debug\net8.0\Lab94.csproj.CoreCompileInputs.cache
+C:\Users\edg50\source\repos\ds4\Laboratorio9\Lab94\obj\Debug\net8.0\Lab94.sourcelink.json
+C:\Users\edg50\source\repos\ds4\Laboratorio9\Lab94\obj\Debug\net8.0\Lab94.dll
+C:\Users\edg50\source\repos\ds4\Laboratorio9\Lab94\obj\Debug\net8.0\refint\Lab94.dll
+C:\Users\edg50\source\repos\ds4\Laboratorio9\Lab94\obj\Debug\net8.0\Lab94.pdb
+C:\Users\edg50\source\repos\ds4\Laboratorio9\Lab94\obj\Debug\net8.0\Lab94.genruntimeconfig.cache
+C:\Users\edg50\source\repos\ds4\Laboratorio9\Lab94\obj\Debug\net8.0\ref\Lab94.dll
