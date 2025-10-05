@@ -1,0 +1,5 @@
+C:\Users\edg50\source\repos\ds4\Laboratorio10\Lab101\obj\Debug\net8.0\Lab101.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\edg50\source\repos\ds4\Laboratorio10\Lab101\obj\Debug\net8.0\Lab101.AssemblyInfoInputs.cache
+C:\Users\edg50\source\repos\ds4\Laboratorio10\Lab101\obj\Debug\net8.0\Lab101.AssemblyInfo.vb
+C:\Users\edg50\source\repos\ds4\Laboratorio10\Lab101\obj\Debug\net8.0\Lab101.vbproj.CoreCompileInputs.cache
+C:\Users\edg50\source\repos\ds4\Laboratorio10\Lab101\obj\Debug\net8.0\Lab101.sourcelink.json
