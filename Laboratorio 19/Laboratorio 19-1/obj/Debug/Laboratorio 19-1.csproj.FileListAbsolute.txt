@@ -1,0 +1,2 @@
+C:\Users\edg50\source\repos\ds4\Laboratorio 19\Laboratorio 19-1\obj\Debug\Laboratorio 19-1.csproj.AssemblyReference.cache
+C:\Users\edg50\source\repos\ds4\Laboratorio 19\Laboratorio 19-1\obj\Debug\Laboratorio 19-1.csproj.CoreCompileInputs.cache
