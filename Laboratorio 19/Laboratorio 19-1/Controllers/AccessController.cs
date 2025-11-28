@@ -15,7 +15,7 @@ namespace Laboratorio_19_1.Controllers
         {
             Reply oR = new Reply();
             oR.result = 1;
-            oR.message = "Mi Hello World from Web API!";
+            oR.message = "Mi Hello World en API";
             return oR;
         }
     }
