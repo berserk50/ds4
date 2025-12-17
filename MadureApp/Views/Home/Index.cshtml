@@ -1,0 +1,164 @@
+﻿@model List<MadureApp.Models.Producto>
+@{
+    ViewBag.Title = "Inicio";
+}
+
+
+<section class="text-center py-5 mb-5" style="background-color: var(--dark-color); color: white;">
+    <div class="container">
+        <h1 class="display-4 fw-bold mb-3">MADURE HONEY RUM</h1>
+        <p class="lead mb-4" style="max-width: 700px; margin: 0 auto;">
+            Descubre el auténtico sabor del ron con miel artesanal.<br>
+            Calidad y tradición en cada botella.
+        </p>
+        <a href="#productos" class="btn btn-primary-custom btn-lg mt-3">
+            Ver Productos
+        </a>
+    </div>
+</section>
+
+<!-- Productos Section -->
+<section id="productos" class="container mb-5">
+    <div class="row mb-4">
+        <div class="col">
+            <h2 class="text-center mb-3">Nuestros Productos</h2>
+            <p class="text-center text-muted">Selección de rones con miel artesanal</p>
+        </div>
+    </div>
+
+    <div class="row g-4">
+        @if (Model != null && Model.Count > 0)
+        {
+            foreach (var producto in Model)
+            {
+                <div class="col-md-6 col-lg-4">
+                    <div class="card product-card">
+                        <div class="card-body">
+                            <h5 class="card-title text-center mb-3">@producto.Nombre</h5>
+
+                            <p class="text-center mb-3">
+                                @if (!string.IsNullOrEmpty(producto.Descripcion))
+                                {
+                                    @producto.Descripcion
+                                }
+                                else
+                                {
+                                    <span>Sabor suave y distintivo.</span>
+                                }
+                            </p>
+
+                            <div class="text-center mb-3">
+                                <span class="badge bg-secondary">Stock: @producto.Stock unidades</span>
+                            </div>
+
+                            <div class="text-center">
+                                <h4 class="text-primary mb-3">$@producto.Precio.ToString("0.00")</h4>
+                                <a href="#" class="btn btn-primary-custom">
+                                    Comprar Ahora
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <div class="col-12">
+                <div class="alert alert-info text-center py-4">
+                    <h4>No hay productos disponibles</h4>
+                    <p>Próximamente tendremos nuestra colección disponible</p>
+                </div>
+            </div>
+        }
+    </div>
+</section>
+
+<!-- Recetas Section -->
+<section id="recetas" class="py-5 mb-5" style="background-color: var(--light-color);">
+    <div class="container">
+        <div class="row mb-4">
+            <div class="col">
+                <h2 class="text-center mb-3">Recetas con MADURE</h2>
+                <p class="text-center text-muted">Descubre deliciosas combinaciones</p>
+            </div>
+        </div>
+
+        <div class="row g-4">
+            <!-- Receta 1 -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h4 class="card-title text-primary mb-3">BLUE SUNSET</h4>
+                        <p class="card-text mb-3">
+                            Ron Madure Honey, jugo de limón, agua con gas o soda.
+                        </p>
+                        <ul class="list-unstyled">
+                            <li class="mb-1">• 50ml Ron Madure Honey</li>
+                            <li class="mb-1">• 30ml jugo de limón fresco</li>
+                            <li>• Agua con gas o soda</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Receta 2 -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h4 class="card-title text-primary mb-3">VERANERO</h4>
+                        <p class="card-text mb-3">
+                            Ron Madure Honey, zumo de piña fresco, zumo de limón fresco.
+                        </p>
+                        <ul class="list-unstyled">
+                            <li class="mb-1">• 60ml Ron Madure Honey</li>
+                            <li class="mb-1">• 100ml zumo de piña fresco</li>
+                            <li>• 20ml zumo de limón fresco</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Receta 3 -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h4 class="card-title text-primary mb-3">MADURE SUNRISE</h4>
+                        <p class="card-text mb-3">
+                            Combinación perfecta para empezar el día.
+                        </p>
+                        <ul class="list-unstyled">
+                            <li class="mb-1">• 45ml Ron Madure Honey</li>
+                            <li class="mb-1">• 90ml jugo de naranja</li>
+                            <li>• 15ml granadina</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card border-0 shadow-sm py-4">
+                <div class="card-body text-center">
+                    <h3 class="mb-3">¿Listo para el sabor MADURE?</h3>
+                    <p class="text-muted mb-4">
+                        Descubre nuestra colección completa y lleva la experiencia MADURE a tu hogar.
+                    </p>
+                    <div class="d-flex justify-content-center gap-3">
+                        <a href="/Home/Admin" class="btn btn-primary-custom">
+                            Administrar Productos
+                        </a>
+                        <a href="#contacto" class="btn btn-outline-secondary">
+                            Contactar
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
