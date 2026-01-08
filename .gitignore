@@ -1,0 +1,84 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/Laboratorio1/.vs/Laboratorio1
+/Laboratorio2/.vs/Laboratorio2
+/Laboratorio2/.vs/ProjectEvaluation
+/Laboratorio21/.vs/Laboratorio21
+/Laboratorio2/Laboratorio21/.vs
+/Laboratorio3/.vs/Laboratorio3
+/Laboratorio3/Laboratorio31/.vs
+/Laboratorio3/.vs/ProjectEvaluation
+/Laboratorio3/Laboratorio32/.vs/Laboratorio32
+/Laboratorio3/Laboratorio32/.vs/ProjectEvaluation
+/Laboratorio3/Laboratorio33/.vs/Laboratorio33
+/Laboratorio3/Laboratorio33/.vs/ProjectEvaluation
+/Laboratorio4/.vs/Laboratorio4
+/Laboratorio4/.vs/ProjectEvaluation
+/Laboratorio4/Lab 4-2/.vs/Lab 4-2
+/Laboratorio4/Lab 4-2/.vs/ProjectEvaluation
+/Laboratorio4/lab4-3/.vs/lab4-3
+/Laboratorio4/Lab 4-4/.vs/Lab 4-4
+/Laboratorio4/lab4-3/.vs/ProjectEvaluation
+/Laboratorio4/Lab 4-4/.vs/ProjectEvaluation
+/Laboratorio4/Lab 4-5/.vs/Lab 4-5
+/Laboratorio4/Lab 4-5/.vs/ProjectEvaluation
+/Laboratorio4/Lab 4-6/.vs/Lab 4-6
+/Laboratorio4/Lab 4-6/.vs/ProjectEvaluation
+/Laboratorio4/lab 4-7/.vs/lab 4-7
+/Laboratorio5/.vs/Laboratorio5
+/Laboratorio5/.vs/ProjectEvaluation
+/Laboratorio5/Lab 5-2/.vs/Lab 5-2
+/Laboratorio5/Lab 5-2/.vs/ProjectEvaluation
+/Laboratorio5/Lab 5-3/.vs/Lab 5-3
+/Laboratorio5/Lab 5-3/.vs/ProjectEvaluation
+/Laboratorio5/Lab 5-4/.vs/Lab 5-4
+/Laboratorio5/Lab 5-4/.vs/ProjectEvaluation
+/Laboratorio5/Lab 5-5/.vs/Lab 5-5
+/Laboratorio5/Lab 5-5/.vs/ProjectEvaluation
+/Laboratorio5/Lab 5-6/.vs/Lab 5-6
+/Laboratorio6/.vs/Laboratorio6
+/Laboratorio6/.vs/ProjectEvaluation
+/Laboratorio6/Lab 6-2/.vs/Lab 6-2
+/Laboratorio6/Lab 6-2/.vs/ProjectEvaluation
+/Laboratorio6/Lab 6-3/.vs/Lab 6-3
+/Laboratorio6/Lab 6-3/.vs/ProjectEvaluation
+/Laboratorio6/Lab 6-4/.vs/Lab 6-4
+/Laboratorio7/.vs/Laboratorio7
+/Laboratorio7/.vs/ProjectEvaluation
+/Laboratorio7/Lab7.2/.vs/Lab7.2
+/Laboratorio 8/.vs
+/Laboratorio9/Laboratorio91/.vs
+/Laboratorio9/.vs
+/Laboratorio9/Lab92/.vs
+/Laboratorio9/Lab93/.vs/Lab93
+/Laboratorio9/Lab93/.vs/ProjectEvaluation
+/Laboratorio9/Lab94/.vs/Lab94
+/Laboratorio9/Lab94/.vs/ProjectEvaluation
+/Laboratorio9/Lab95/.vs/Lab95
+/Laboratorio10/.vs
+/Laboratorio10/Lab101/.vs/Lab101
+/Laboratorio10/Lab102/.vs/Lab102
+/Laboratorio10/Lab102/.vs/ProjectEvaluation
+/Laboratorio10/Lab103/.vs/Lab103
+/Laboratorio10/Lab103/.vs/ProjectEvaluation
+/Laboratorio10/Lab104/.vs/Lab104
+/Laboratorio 11/Laboratorio 11/.vs/Laboratorio 11
+/Laboratorio!3/.vs/Laboratorio!3
+/Laboratorio14/.vs/Laboratorio14
+/Laboratorio15/.vs/Laboratorio15
+/Laboratorio15/Laboratorio15-2/.vs/Laboratorio15-2
+/Laboratorio15/Laboratorio15-2/.vs/ProjectEvaluation
+/Laboratorio15/Laboratorio15-3
+/Laboratorio15/Laboratorio 15-4/.vs/Laboratorio 15-4
+/Laboratorio15/Laboratorio16/.vs/Laboratorio16
+/Laboratorio17/.vs/Laboratorio17
+/Laboratorio 18/.vs/Laboratorio 18
+/Laboratorio 19/.vs/Laboratorio 19
+/Laboratorio 19/Aplicacion19-3/.vs/Aplicacion19-3
+/MadureApi
+/Laboratorio20
+/Parcial3
+/MadureApp/.vs

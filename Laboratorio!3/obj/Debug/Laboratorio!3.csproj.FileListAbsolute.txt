@@ -1,0 +1,14 @@
+C:\Users\edg50\source\repos\ds4\Laboratorio!3\obj\Debug\Laboratorio!3.csproj.AssemblyReference.cache
+C:\Users\edg50\source\repos\ds4\Laboratorio!3\obj\Debug\Laboratorio_3.Form1.resources
+C:\Users\edg50\source\repos\ds4\Laboratorio!3\obj\Debug\Laboratorio_3.Properties.Resources.resources
+C:\Users\edg50\source\repos\ds4\Laboratorio!3\obj\Debug\Laboratorio!3.csproj.GenerateResource.cache
+C:\Users\edg50\source\repos\ds4\Laboratorio!3\obj\Debug\Laboratorio!3.csproj.CoreCompileInputs.cache
+C:\Users\edg50\source\repos\ds4\Laboratorio!3\bin\Debug\Laboratorio!3.exe.config
+C:\Users\edg50\source\repos\ds4\Laboratorio!3\bin\Debug\Laboratorio!3.exe
+C:\Users\edg50\source\repos\ds4\Laboratorio!3\bin\Debug\Laboratorio!3.pdb
+C:\Users\edg50\source\repos\ds4\Laboratorio!3\obj\Debug\Laboratorio!3.exe
+C:\Users\edg50\source\repos\ds4\Laboratorio!3\obj\Debug\Laboratorio!3.pdb
+C:\Users\edg50\source\repos\ds4\Laboratorio!3\obj\Debug\Laboratorio!3.exe.config
+C:\Users\edg50\source\repos\ds4\Laboratorio!3\bin\Debug\System.Data.SqlClient.dll
+C:\Users\edg50\source\repos\ds4\Laboratorio!3\bin\Debug\System.Data.SqlClient.xml
+C:\Users\edg50\source\repos\ds4\Laboratorio!3\obj\Debug\Laborato.C2AF4129.Up2Date

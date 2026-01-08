@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "OMX/wHQ0eqw=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\edg50\\source\\repos\\ds4\\Laboratorio9\\Laboratorio9.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\edg50\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.22.1\\microsoft.visualstudio.azure.containers.tools.targets.1.22.1.nupkg.sha512"
+  ],
+  "logs": []
+}

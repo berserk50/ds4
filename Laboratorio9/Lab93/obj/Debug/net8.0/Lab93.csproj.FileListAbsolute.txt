@@ -1,0 +1,15 @@
+C:\Users\edg50\source\repos\ds4\Laboratorio9\Lab93\bin\Debug\net8.0\Lab93.exe
+C:\Users\edg50\source\repos\ds4\Laboratorio9\Lab93\bin\Debug\net8.0\Lab93.deps.json
+C:\Users\edg50\source\repos\ds4\Laboratorio9\Lab93\bin\Debug\net8.0\Lab93.runtimeconfig.json
+C:\Users\edg50\source\repos\ds4\Laboratorio9\Lab93\bin\Debug\net8.0\Lab93.dll
+C:\Users\edg50\source\repos\ds4\Laboratorio9\Lab93\bin\Debug\net8.0\Lab93.pdb
+C:\Users\edg50\source\repos\ds4\Laboratorio9\Lab93\obj\Debug\net8.0\Lab93.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\edg50\source\repos\ds4\Laboratorio9\Lab93\obj\Debug\net8.0\Lab93.AssemblyInfoInputs.cache
+C:\Users\edg50\source\repos\ds4\Laboratorio9\Lab93\obj\Debug\net8.0\Lab93.AssemblyInfo.cs
+C:\Users\edg50\source\repos\ds4\Laboratorio9\Lab93\obj\Debug\net8.0\Lab93.csproj.CoreCompileInputs.cache
+C:\Users\edg50\source\repos\ds4\Laboratorio9\Lab93\obj\Debug\net8.0\Lab93.sourcelink.json
+C:\Users\edg50\source\repos\ds4\Laboratorio9\Lab93\obj\Debug\net8.0\Lab93.dll
+C:\Users\edg50\source\repos\ds4\Laboratorio9\Lab93\obj\Debug\net8.0\refint\Lab93.dll
+C:\Users\edg50\source\repos\ds4\Laboratorio9\Lab93\obj\Debug\net8.0\Lab93.pdb
+C:\Users\edg50\source\repos\ds4\Laboratorio9\Lab93\obj\Debug\net8.0\Lab93.genruntimeconfig.cache
+C:\Users\edg50\source\repos\ds4\Laboratorio9\Lab93\obj\Debug\net8.0\ref\Lab93.dll

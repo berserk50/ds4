@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "Prueba de Conexión";
+}
+
+<div class="container mt-5">
+    <h2>Prueba de Configuración</h2>
+
+    <div class="alert alert-success mt-4">
+        <h4>@ViewBag.Mensaje</h4>
+    </div>
+
+    <div class="card mt-4">
+        <div class="card-header">
+            <h5>Configuración de Base de Datos</h5>
+        </div>
+        <div class="card-body">
+            <p><strong>Nombre de la cadena:</strong> @ViewBag.NombreCadena</p>
+            <p><strong>Cadena de conexión:</strong></p>
+            <div class="bg-light p-3 rounded">
+                <code>@ViewBag.CadenaConexion</code>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-4">
+        <a href="/" class="btn btn-primary">🏠 Volver al Inicio</a>
+
+        <!-- Botón para probar conexión REAL -->
+        <a href="@Url.Action("ProbarConexion")" class="btn btn-warning">
+            🔗 Probar Conexión Real a SQL
+        </a>
+    </div>
+</div>

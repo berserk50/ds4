@@ -1,0 +1,165 @@
+﻿@model List<MadureApp.Models.Producto>
+
+@{
+    // Obtener parámetro editarId de forma compatible con C# 5
+    string editarIdParam = Request.QueryString["editarId"];
+    MadureApp.Models.Producto productoEditar = null;
+
+    if (!string.IsNullOrEmpty(editarIdParam))
+    {
+        int editarId;
+        if (int.TryParse(editarIdParam, out editarId))
+        {
+            productoEditar = Model.FirstOrDefault(p => p.ID_Producto == editarId);
+        }
+    }
+}
+
+<div class="container mt-4">
+    <div class="card">
+        <div class="card-header">
+            <h5 class="mb-0">Productos</h5>
+        </div>
+        <div class="card-body">
+            <!-- Tabla de productos -->
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Descripción</th>
+                        <th>Precio</th>
+                        <th>Stock</th>
+                        <th>Estado</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var producto in Model)
+                    {
+                        <tr>
+                            <td>@producto.ID_Producto</td>
+                            <td>@producto.Nombre</td>
+                            <td>@producto.Descripcion</td>
+                            <td>$@producto.Precio.ToString("0.00")</td>
+                            <td>@producto.Stock</td>
+                            <td>
+                                @if (producto.Estado)
+                                {
+                                    <span class="text-success">Activo</span>
+                                }
+                                else
+                                {
+                                    <span class="text-danger">Inactivo</span>
+                                }
+                            </td>
+                            <td>
+
+                                <form method="get" action="@Url.Action("Admin", "Home")" style="display:inline;">
+                                    <input type="hidden" name="editarId" value="@producto.ID_Producto" />
+                                    <button type="submit" class="btn btn-sm btn-primary">Editar</button>
+                                </form>
+
+
+                                <form method="post" action="@Url.Action("Delete", "Home")" style="display:inline;">
+                                    <input type="hidden" name="id" value="@producto.ID_Producto" />
+                                    <button type="submit" class="btn btn-sm btn-danger"
+                                            onclick="return confirm('¿Eliminar este producto?')">
+                                        Eliminar
+                                    </button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+            <hr />
+
+
+            @if (productoEditar != null)
+            {
+                <h5>Editar Producto: @productoEditar.Nombre</h5>
+            }
+            else
+            {
+                <h5>Crear Nuevo Producto</h5>
+            }
+
+            <form method="post" action="@Url.Action("SaveProduct", "Home")">
+                @if (productoEditar != null)
+                {
+                    <input type="hidden" name="ID_Producto" value="@productoEditar.ID_Producto" />
+                }
+                else
+                {
+                    <input type="hidden" name="ID_Producto" value="0" />
+                }
+
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label>Nombre:</label>
+                        <input type="text" name="Nombre" class="form-control"
+                               value="@(productoEditar != null ? productoEditar.Nombre : "")" required />
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label>Descripción:</label>
+                        <input type="text" name="Descripcion" class="form-control"
+                               value="@(productoEditar != null ? productoEditar.Descripcion : "")" required />
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <label>Precio:</label>
+                        <input type="number" name="Precio" class="form-control" step="0.01"
+                               value="@(productoEditar != null ? productoEditar.Precio.ToString("0.00") : "0")" required />
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label>Stock:</label>
+                        <input type="number" name="Stock" class="form-control"
+                               value="@(productoEditar != null ? productoEditar.Stock.ToString() : "0")" required />
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label>Estado:</label>
+                        <select name="Estado" class="form-control">
+                            @if (productoEditar == null)
+                            {
+                                <option value="true" selected>Activo</option>
+                                <option value="false">Inactivo</option>
+                            }
+                            else if (productoEditar.Estado)
+                            {
+                                <option value="true" selected>Activo</option>
+                                <option value="false">Inactivo</option>
+                            }
+                            else
+                            {
+                                <option value="true">Activo</option>
+                                <option value="false" selected>Inactivo</option>
+                            }
+                        </select>
+                    </div>
+                </div>
+
+                <div>
+                    <button type="submit" class="btn btn-primary">
+                        @if (productoEditar != null)
+                        {
+                            <text>Actualizar Producto</text>
+                        }
+                        else
+                        {
+                            <text>Crear Producto</text>
+                        }
+                    </button>
+
+                    @if (productoEditar != null)
+                    {
+                        <a href="@Url.Action("Admin", "Home")" class="btn btn-secondary">Cancelar</a>
+                    }
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
